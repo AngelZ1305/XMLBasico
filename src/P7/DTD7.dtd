@@ -1,0 +1,14 @@
+<!ELEMENT contactInfo (businessName)>
+<!ELEMENT businessName (#PCDATA)>
+
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT zipCode (#PCDATA)>
+<!ELEMENT streetAdress (city, state,zipCode)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT website (#PCDATA)>
+
+<!ELEMENT INVOICE (contactInfo)>
+
+<!ELEMENT invoice (#PCDATA)>
+<!ELEMENT INVOICEDETAILS ()>
