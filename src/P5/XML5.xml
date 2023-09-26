@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE enciclopeadiaArboles SYSTEM "DTD5.dtd">
+
+<enciclopeadiaArboles>
+    <arbol>
+
+        <nombre>Acer monspessulanum</nombre>
+
+        <nombreComun>Arce de Montpellier</nombreComun>
+        <nombreComun>Arce menor</nombreComun>
+
+        <vegetacion>Caducifolio</vegetacion>
+
+        <altura>De 6 a 10 metros</altura>
+
+        <formaEstructura> Copa esférica.</formaEstructura>
+        <formaEstructura>Tronco principal recto con bifurcaciones.</formaEstructura>
+        <formaEstructura>Ramaje colgante</formaEstructura>
+
+        <color colorPrimavera="Haz verde brillante, envés verde blanquecino"> </color>
+
+        <resistenciaHelada>Heladas fuertes (hasta -15ºC)</resistenciaHelada>
+
+    </arbol>
+
+
+    <arbol>
+
+        <nombre>Olea europea</nombre>
+
+        <nombreComun>Olivo</nombreComun>
+
+        <altura>De 8 a 15 metros</altura>
+
+        <formaEstructura>Copa irregular</formaEstructura>
+        <formaEstructura>Tronco principal irregular con bifurcaciones.</formaEstructura>
+
+    </arbol>
+
+
+    <arbol>
+
+        <nombre>Ramaje tortuoso</nombre>
+
+        <color colorPrimavera="Haz verde oscuro, envés verde plateado"> </color>
+
+        <resistenciaHelada>Heladas medias (hasta -10ºC)</resistenciaHelada>
+        
+    </arbol>
+    
+    
+    <arbol>
+
+        <nombre>Platanus orientalis</nombre>
+
+        <nombreComun>Platano</nombreComun>
+
+        <vegetacion>Caducifolio</vegetacion>
+
+        <altura>De 20 a 25 metros</altura>
+
+        <formaEstructura>Copa ovoidal.</formaEstructura>
+        <formaEstructura>Tronco principal recto.</formaEstructura>
+        <formaEstructura>Ramaje expandido</formaEstructura>
+
+        <color colorPrimavera="Haz verde medio, enves verde claro" colorOtonio="Ocre"> </color>
+
+        <resistenciaHelada>Heladas fuertes (hasta -20ºC)</resistenciaHelada>
+
+    </arbol>
+
+    <arbol>
+
+        <nombre>Quercus ilex</nombre>
+
+        <nombreComun>Encina</nombreComun>
+
+        <vegetacion>Perenne</vegetacion>
+
+        <altura>En torno a 25 metros</altura>
+
+        <formaEstructura>Copa esférica o elíptica irregular</formaEstructura>
+        <formaEstructura>Tronco principal recto</formaEstructura>
+        <formaEstructura>Ramaje tortuoso</formaEstructura>
+
+        <color colorPrimavera="Plateado en hojas jóvenes. En hojasantiguas, haz verde oscuro, envés plateado"> </color>
+
+        <resistenciaHelada>Heladas fuertes (hasta -15ºC)</resistenciaHelada>
+
+    </arbol>
+
+</enciclopeadiaArboles>

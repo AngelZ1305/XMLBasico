@@ -1,0 +1,16 @@
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nombreComun (#PCDATA)>
+<!ELEMENT vegetacion (#PCDATA)>
+<!ELEMENT altura (#PCDATA)>
+<!ELEMENT formaEstructura (#PCDATA)>
+<!ELEMENT color (color)>
+<!ATTLIST color
+    colorPrimavera CDATA
+    colorVerano CDATA
+    colorOtonio CDATA
+    colorInvierno CDATA
+    >
+<!ELEMENT resistenciaHelada (#PCDATA)>
+
+<!ELEMENT arbol (nombre, nombreComun*, vegetacion?, altura?, formaEstructura*, color?, resistenciaHelada?)>
+<!ELEMENT enciclopeadiaArboles (arbol*)>
