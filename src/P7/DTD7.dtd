@@ -1,14 +1,24 @@
-<!ELEMENT contactInfo (businessName)>
-<!ELEMENT businessName (#PCDATA)>
+<!ELEMENT INVOICE (contactInfo, invoiceDetails, descriptionGoodsOrServices+)>
+    <!ELEMENT contactInfo (businessName,streetAdress,number,email,website)>
+        <!ELEMENT businessName (#PCDATA)>
+        <!ELEMENT streetAdress (city, state,zipCode)>
+            <!ELEMENT city (#PCDATA)>
+            <!ELEMENT state (#PCDATA)>
+            <!ELEMENT zipCode (#PCDATA)>
+        <!ELEMENT email (#PCDATA)>
+        <!ELEMENT website (#PCDATA)>
+        <!ELEMENT number (#PCDATA)>
 
-<!ELEMENT city (#PCDATA)>
-<!ELEMENT state (#PCDATA)>
-<!ELEMENT zipCode (#PCDATA)>
-<!ELEMENT streetAdress (city, state,zipCode)>
-<!ELEMENT email (#PCDATA)>
-<!ELEMENT website (#PCDATA)>
+    <!ELEMENT invoiceDetails (invoice, invoiceDate,terms,due)>
+        <!ELEMENT invoice (#PCDATA)>
+        <!ELEMENT invoiceDate (#PCDATA)>
+        <!ELEMENT terms (#PCDATA)>
+        <!ELEMENT due (#PCDATA)>
+    <!ELEMENT descriptionGoodsOrServices (productOrService, description, hrs, rate, amount)>
+        <!ELEMENT productOrService (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        <!ELEMENT hrs (#PCDATA)>
+        <!ELEMENT rate (#PCDATA)>
+        <!ELEMENT amount (#PCDATA)>
 
-<!ELEMENT INVOICE (contactInfo)>
 
-<!ELEMENT invoice (#PCDATA)>
-<!ELEMENT INVOICEDETAILS ()>

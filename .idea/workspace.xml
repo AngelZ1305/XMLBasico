@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c977efd-5c77-4bfc-9a43-7bf983084748" name="Changes" comment="XML6-2 DTD6-2">
+    <list default="true" id="6c977efd-5c77-4bfc-9a43-7bf983084748" name="Changes" comment="7">
+      <change afterPath="$PROJECT_DIR$/src/P4/DTD4.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P4/XML4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P6/DTD6.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/src/P6/DTD6.dtd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P6/XML6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/P6/XML6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P7/DTD7.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/src/P7/DTD7.dtd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P7/XML7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/P7/XML7.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,28 +40,6 @@
       <option name="presentableId" value="Default" />
       <updated>1695752403977</updated>
     </task>
-    <task id="LOCAL-00001" summary="DTD 5 y XML 5, creacion de carpeta P6">
-      <created>1695768721394</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1695768721394</updated>
-    </task>
-    <task id="LOCAL-00002" summary="DTD 5 y XML 5, creacion de carpeta P6">
-      <created>1695769731373</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1695769731373</updated>
-    </task>
-    <task id="LOCAL-00003" summary="XML6-2 DTD6-2">
-      <created>1695773212388</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1695773212388</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,10 +52,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="DTD 5 y XML 5, creacion de carpeta P6" />
-    <MESSAGE value="XML6-2 DTD6-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="XML6-2 DTD6-2" />
   </component>
 </project>

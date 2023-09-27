@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE INVOICE SYSTEM "DTD7.dtd">
 <INVOICE>
-
-    <contactInfo >
-
+    <contactInfo>
+        <businessName>Business name</businessName>
+        <streetAdress>
+            <city>City</city>
+            <state>State</state>
+            <zipCode>Zip Code</zipCode>
+        </streetAdress>
+        <number>(000) 000-000</number>
+        <email>Email</email>
+        <website>Website</website>
     </contactInfo>
-
-
-
-
+    <invoiceDetails>
+        <invoice># 12345</invoice>
+        <invoiceDate>mm/dd/yyyy</invoiceDate>
+        <terms>Net 30</terms>
+        <due>mm/dd/yyyy</due>
+    </invoiceDetails>
+    <descriptionGoodsOrServices>
+        <productOrService>Product or service</productOrService>
+        <description>Describe your product or service</description>
+        <hrs>0</hrs>
+        <rate>0</rate>
+        <amount>0</amount>
+    </descriptionGoodsOrServices>
+    <descriptionGoodsOrServices>
+        <productOrService>Product or service</productOrService>
+        <description>Describe your product or service</description>
+        <hrs>0</hrs>
+        <rate>0</rate>
+        <amount>0</amount>
+    </descriptionGoodsOrServices>
 </INVOICE>
