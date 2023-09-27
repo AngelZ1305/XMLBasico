@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE libros SYSTEM "DTD6-2.dtd">
+
+<!-- Version mal
+
+<?xml version="1.0"?>
+
+ *1.Se tiene que llamar al dtd*
+
+<libros>  *2. Sbre libros, pero cierra Libros
+
+    <libro id="quijote">
+
+        <titulo>El Quijote</titulo>
+
+        <autor nombre=cervantes
+               nombre=cervantes> *3. Generalmente los libros solo tiene 1 autor,
+                                    se debe de cerrar el tag ya sea con />
+                                    o con ></autor>
+
+            <descripcion>Es el m<ejor libro de *4. no usar "<" ya que interfiere con la sintaxis
+
+                       cervantes.</descripcion>
+
+    </libro] *5. Se debe cerrar con ">", no con "]"
+
+
+</Libros> *2. Abre libros, pero cierra Libros
+
+-->
+
+<libros>
+
+    <libro id="Quijote" >
+        <titulo> El Quijote</titulo>
+        <autor nombre ="cervantes"></autor>
+        <descripcion>Es el mejor libro de cervantes.</descripcion>
+    </libro>
+
+</libros>

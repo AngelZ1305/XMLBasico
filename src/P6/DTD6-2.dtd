@@ -1,0 +1,10 @@
+<!ELEMENT libro (titulo, autor, descripcion) >
+<!ATTLIST libro
+    id ID #REQUIRED
+>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor EMPTY>
+<!ATTLIST autor nombre CDATA #REQUIRED>
+<!ELEMENT descripcion (#PCDATA)>
+
+<!ELEMENT libros (libro+)>
