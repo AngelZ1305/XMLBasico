@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Pedido SYSTEM "DTD1.dtd">
+<Pedido>
+    <Destinatario> Juan Delgado Martinez </Destinatario>
+    <Articulo>  Bicicleta Bianchi Oltre. </Articulo>
+    <Dirección> calle Reforma 423, tercer piso, letra A</Dirección>
+    <DíaEntrega> 19-09-2021 </DíaEntrega>
+</Pedido>
