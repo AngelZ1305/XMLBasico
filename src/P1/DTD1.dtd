@@ -2,4 +2,4 @@
 <!ELEMENT Destinatario (#PCDATA)>
 <!ELEMENT Articulo (#PCDATA)>
 <!ELEMENT Dirección (#PCDATA)>
-<!ELEMENT DíaEntrega (#PCDATA)>
+<!ELEMENT DíaEntrega (#PCDATA)>

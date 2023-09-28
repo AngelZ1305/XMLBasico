@@ -5,4 +5,4 @@
 <!ELEMENT Texto (Parrafo+)>
 <!ELEMENT Parrafo (#PCDATA)>
 <!ELEMENT Nombre (#PCDATA)>
-<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>

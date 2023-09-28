@@ -7,10 +7,9 @@
     </Remitente>
 
     <Destinatario>
-        <Nombre> Bill Clinton </Nombre>
-        <Email> president@whitehouse.gov </Email>>
+        <Nombre>Bill Clinton</Nombre>
+        <Email>president@whitehouse.gov</Email>
     </Destinatario>
-
     <Asunto> Hola Bill</Asunto>
     <Texto>
         <Parrafo> ¿Hola qué tal? </Parrafo>
