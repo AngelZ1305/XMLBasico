@@ -1,5 +1,8 @@
-<!ELEMENT Pedido (Destinatario, Articulo, Dirección, DíaEntrega)>
-<!ELEMENT Destinatario (#PCDATA)>
-<!ELEMENT Articulo (#PCDATA)>
-<!ELEMENT Dirección (#PCDATA)>
-<!ELEMENT DíaEntrega (#PCDATA)>
+<!ELEMENT Mensaje (Remitente, Destinatario, Asunto, Texto)>
+<!ELEMENT Remitente (Nombre, Email)>
+<!ELEMENT Destinatario (Nombre, Email)>
+<!ELEMENT Asunto (#PCDATA)>
+<!ELEMENT Texto (Parrafo+)>
+<!ELEMENT Parrafo (#PCDATA)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
